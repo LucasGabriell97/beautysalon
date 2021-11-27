@@ -9,6 +9,12 @@
     <!-- ICONS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
+    <!-- SWIPER -->
+    <link 
+        rel="stylesheet" 
+        href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    
     <!-- STYLES -->
     <link rel="stylesheet" href="style.css">
 
@@ -105,55 +111,87 @@
 
         <!-- TESTIMONIALS -->
         <section class="section" id="testimonials">
-            <div class="container grid">
+            <div class="container">
                 <header>
                     <h2 class="title">Depoimentos de quem já passou por aqui</h2>
                 </header>
-                <div class="testimonials">
-                    <div class="testimonial">
-                        <blockquote>
-                            <p>
-                                <span>&ldquo;</span>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam maxime neque voluptate ducimus nemo! Minima enim culpa, voluptatem quibusdam. 
-                            </p>
-                            <cite>
-                                <img src="https://randomuser.me/api/portraits/women/2.jpg" alt="Foto da Wanessa Souza">
-                                Wanessa Souza
-                            </cite>
-                        </blockquote>
+                <div class="testimonials swiper">
+                    <div class="swiper-wrapper">
+                        <div class="testimonial swiper-slide">
+                            <blockquote>
+                                <p>
+                                    <span>&ldquo;</span>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam maxime neque voluptate ducimus nemo! Minima enim culpa, voluptatem quibusdam. 
+                                </p>
+                                <cite>
+                                    <img src="https://randomuser.me/api/portraits/women/2.jpg" alt="Foto da Wanessa Souza">
+                                    Wanessa Souza
+                                </cite>
+                            </blockquote>
+                        </div>
+    
+                        <div class="testimonial swiper-slide">
+                            <blockquote>
+                                <p>
+                                    <span>&ldquo;</span>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam maxime neque voluptate ducimus nemo! Minima enim culpa, voluptatem quibusdam. 
+                                </p>
+                                <cite>
+                                    <img src="https://randomuser.me/api/portraits/women/62.jpg" alt="Foto da Francielle Venega">
+                                    Francielle Venega
+                                </cite>
+                            </blockquote>
+                        </div>
+    
+                        <div class="testimonial swiper-slide">
+                            <blockquote>
+                                <p>
+                                    <span>&ldquo;</span>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam maxime neque voluptate ducimus nemo! Minima enim culpa, voluptatem quibusdam. 
+                                </p>
+                                <cite>
+                                    <img src="https://randomuser.me/api/portraits/women/3.jpg" alt="Foto da Valeska Fabris">
+                                    Valeska Fabris
+                                </cite>
+                            </blockquote>
+                        </div>
                     </div>
 
-                    <div class="testimonial">
-                        <blockquote>
-                            <p>
-                                <span>&ldquo;</span>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam maxime neque voluptate ducimus nemo! Minima enim culpa, voluptatem quibusdam. 
-                            </p>
-                            <cite>
-                                <img src="https://randomuser.me/api/portraits/women/62.jpg" alt="Foto da Francielle Venega">
-                                Francielle Venega
-                            </cite>
-                        </blockquote>
-                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
 
-                    <div class="testimonial">
-                        <blockquote>
-                            <p>
-                                <span>&ldquo;</span>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam maxime neque voluptate ducimus nemo! Minima enim culpa, voluptatem quibusdam. 
-                            </p>
-                            <cite>
-                                <img src="https://randomuser.me/api/portraits/women/3.jpg" alt="Foto da Valeska Fabris">
-                                Valeska Fabris
-                            </cite>
-                        </blockquote>
-                    </div>
-                   
+        <div class="divider-2"></div>
+
+        <!-- CONTACT -->
+        <section class="section" id="contact">
+            <div class="container grid">
+                <div class="text">
+                    <h2 class="title">Entre em contato com a gente!</h2>
+                    <p>Entre em contato com a Beautysalon, queremos tirar suas dúvidas, ouvir suas críticas e sugestões.</p>
+                    <a href="https://api.whatsapp.com/send?phone=SeuNúmero&text=SuaMensagem" class="button"><i class="fa fa-whatsapp"></i>Entrar em contato</a>
+                </div>
+
+                <div class="links">
+                    <ul class="grid">
+                        <li><i class="fa fa-phone"></i>11 99845-6754</li>
+                        <li><i class="fa fa-map-pin"></i>R. Amauri Souza, 346</li>
+                        <li><i class="fa fa-envelope"></i>contato@beautysalon.com</li>
+                    </ul>
                 </div>
             </div>
         </section>
     </main>
 
+    <!-- SWIPER -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- SCROLL REVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- MAIN -->
     <script src="main.js"></script>
 </body>
 </html>
