@@ -4,7 +4,7 @@
 
 ![Design preview for Beautysalon](./images/project-view.png)
 
-<h4 align="center"><a href="">Clique para visitar o projeto</a></h4>
+<h4 align="center"><a href="https://lucasgabriell97.github.io/beautysalon/">Clique para visitar o projeto</a></h4>
 
 ## 📚 Sobre o projeto
 
