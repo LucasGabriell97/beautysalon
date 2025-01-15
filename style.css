@@ -1,5 +1,4 @@
-/*=========== RESET ==========*/
-
+/*=========== RESET ===*/
 * {
     margin: 0;
     padding: 0;
@@ -19,7 +18,7 @@ img {
     height: auto;
 }
 
-/*=========== VARIABLES ==========*/
+/*=========== VARIABLES ===*/
 :root {
     --header-height: 4.5rem;
 
@@ -42,8 +41,7 @@ img {
     --body-font: 'DM Sans', sans-serif;
 }
 
-/*=========== BASE ==========*/
-
+/*=========== BASE ===*/
 html {
     scroll-behavior: smooth;   /* Efeito de rolagem suave */
 }
@@ -95,15 +93,13 @@ body {
     );
 }
 
-/*=========== CONTAINER ==========*/
-
+/*=========== CONTAINER ===*/
 .container { 
     margin-left: 1.5rem;
     margin-right: 1.5rem;
 }
 
-/*=========== HEADER ==========*/
-
+/*=========== HEADER ===*/
 #header {
     border-bottom: 1px solid #e4e4e4;
     margin-bottom: 2rem;
@@ -145,8 +141,7 @@ body {
     color: var(--base-color);
 }
 
-/*=========== LOGO ==========*/
-
+/*=========== LOGO ===*/
 .logo {
     font: 700 1.31rem var(--title-font);
     color: var(--title-color);
@@ -160,8 +155,7 @@ body {
     color: var(--body-color);
 }
 
-/*=========== NAVIGATION ==========*/
-
+/*=========== NAVIGATION ===*/
 nav {
     height: var(--header-height);
     display: flex; 
@@ -213,8 +207,7 @@ nav .menu ul {
     display: none;
 }
 
-/*=========== MOSTRAR MENU ==========*/
-
+/*=========== MOSTRAR MENU ===*/
 nav.show .menu {
     opacity: 1;
     visibility: visible;
@@ -239,8 +232,7 @@ nav.show ul.grid {
     gap: 4rem;          /*Espaçamento entre os items do menu*/
 }
 
-/*=========== TOGGLE MENU ==========*/
-
+/*=========== TOGGLE MENU ===*/
 .toggle {
     color: var(--base-color);
     font-size: 1.5rem;
@@ -264,8 +256,7 @@ nav.show div.close {
     top: 1.5rem;
 }
 
-/*=========== HOME ==========*/
-
+/*=========== HOME ===*/
 #home {
     overflow: hidden;
 }
@@ -313,8 +304,7 @@ nav.show div.close {
     margin-bottom: 2rem;
 }
 
-/*=========== ABOUT ==========*/
-
+/*=========== ABOUT ===*/
 #about {
     background: white;
 }
@@ -352,8 +342,7 @@ nav.show div.close {
     margin-right: 1.5rem;
 }
 
-/*=========== SERVICES ==========*/
-
+/*=========== SERVICES ===*/
 .cards.grid {
     gap: 1.5rem;
 }
@@ -378,8 +367,7 @@ nav.show div.close {
     margin-bottom: 0.75rem;
 }
 
-/*=========== TESTMONIALS ==========*/
-
+/*=========== TESTMONIALS ===*/
 #testimonials {
     background: white;
 }
@@ -430,8 +418,7 @@ nav.show div.close {
     margin-right: 0.5rem;
 }
 
-/*=========== SWIPER ==========*/
-
+/*=========== SWIPER ===*/
 .swiper-slide {
     height: auto;
     padding: 4rem 1rem;
@@ -441,8 +428,7 @@ nav.show div.close {
     background: var(--base-color);
 }
 
-/*=========== CONTACT ==========*/
-
+/*=========== CONTACT ===*/
 #contact .grid {
     gap: 4rem;
 }
@@ -471,8 +457,7 @@ nav.show div.close {
     color: var(--base-color);
 }
 
-/*=========== FOOTER ==========*/
-
+/*=========== FOOTER ===*/
 footer {
     background-color: var(--base-color);
 }
@@ -506,7 +491,7 @@ footer .social a:hover {
     transform: translateY(-8px);
 }
 
-/*=========== BACK TO TOP ==========*/
+/*=========== BACK TO TOP ===*/
 .back-to-top {
     background: var(--base-color);
     color: var(--text-color-light);
@@ -534,7 +519,7 @@ footer .social a:hover {
     transform: translateY(0);
 }
 
-/*=========== MEDIA QUERIES ==========*/
+/*=========== MEDIA QUERIES ===*/
 /* extra large devices: 1200 > */
 @media (min-width: 1200px) {
     .container {
@@ -560,7 +545,6 @@ footer .social a:hover {
     }
 
     /* navigation */
-
     nav .menu {
         opacity: 1;
         visibility: visible;
@@ -587,13 +571,11 @@ footer .social a:hover {
     }
 
     /* layout */
-
     main {
         margin-top: var(--header-height);
     }
 
     /* home */
-
     #home .container {
         grid-auto-flow: column;
         justify-content: space-between;
@@ -611,14 +593,12 @@ footer .social a:hover {
     }
 
     /* about */
-
     #about .container {
         margin: 0 auto;
         grid-auto-flow: column;
     }
 
     /* services */
-
     .cards {
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -629,7 +609,6 @@ footer .social a:hover {
     }
 
     /* testimonials */
-
     #testimonials .container {
         margin-left: auto;
         margin-right: auto;
@@ -646,7 +625,6 @@ footer .social a:hover {
     }
 
     /* footer */
-
     footer.section {
         padding: 3.75rem 0;
     }

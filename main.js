@@ -1,5 +1,4 @@
 /*======== Abrir e fechar o menu ao clicar nos ícones =======*/ 
-
 const nav = document.querySelector('#header nav')
 const toggle = document.querySelectorAll('nav .toggle')
 
@@ -10,7 +9,6 @@ for (const element of toggle) {
 }
 
 /*======== Fechar o menu ao clicar nos links =======*/
-
 const links = document.querySelectorAll('nav ul li a')
 
 for(const link of links) {
@@ -20,7 +18,6 @@ for(const link of links) {
 }
 
 /*======== Colocar sombra no header ao dar scroll =======*/
-
 const header = document.querySelector('#header')
 const navHeight = header.offsetHeight
 

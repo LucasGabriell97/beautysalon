@@ -2,15 +2,17 @@
   💻<br>Beautysalon
 </h1>
 
-![Design preview for Beautysalon](./images/project-view.png)
+<div align="center">
+  <img src="./images/project-view.png" alt="Imagem do projeto Beautysalon">
+</div>
 
-<h4 align="center"><a href="https://lucasgabriell97.github.io/beautysalon/">Clique para visitar o projeto</a></h4>
+<h4 align="center"><a href="">Clique para visitar o projeto</a></h4>
 
 ## 📚 Sobre o projeto
 
-Beautysalon é um projeto de um salão de beleza, uma landing page responsiva que foi desenvolvida no 6° evento da NLW, Mission Origin - Rocketseat.
+Beautysalon é um projeto de um salão de beleza, uma landing page responsiva que foi desenvolvida no 6° evento da <strong>NLW, Mission Origin - Rocketseat.</strong>
 
-## 💼 Tecnologias utilizadas
+## 🛠️ Tecnologias utilizadas
 
 - HTML;
 - CSS;
