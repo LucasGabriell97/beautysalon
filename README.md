@@ -1,5 +1,5 @@
 <h1 align="center">
-  💻<br>Beautysalon
+  🧴✂️<br>Beautysalon
 </h1>
 
 <div align="center">
@@ -14,8 +14,8 @@ Beautysalon é um projeto de um salão de beleza, uma landing page responsiva qu
 
 ## 🛠️ Tecnologias utilizadas
 
-- HTML;
-- CSS;
-- JavaScript;
-- Scroll Reveal;
-- Swiper Bundle;
+- HTML
+- CSS
+- JavaScript
+- Scroll Reveal
+- Swiper Bundle
